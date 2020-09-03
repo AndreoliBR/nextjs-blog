@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.centerText}`}>
         Vamos fingir q essa bio é super interessante
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
