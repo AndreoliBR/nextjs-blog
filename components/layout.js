@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={'/og-img.jpg'}
+          content='/images/og-img.jpg'
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
